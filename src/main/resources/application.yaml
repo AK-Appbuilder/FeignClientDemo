@@ -1,0 +1,13 @@
+
+
+spring:
+  application:
+    name: books-aggregator
+
+
+services:
+  endpoints:
+    books-search: http://localhost:8090
+
+server:
+  port: 8091
